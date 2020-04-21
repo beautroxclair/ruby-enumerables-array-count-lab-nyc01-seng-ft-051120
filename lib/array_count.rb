@@ -1,6 +1,6 @@
 def count_strings(array)
   array.count do |el| 
-    el.type == String
+    el.is_a?(String)
   end
 end
 
